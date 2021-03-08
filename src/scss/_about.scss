@@ -1,0 +1,60 @@
+.about_me {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #e2c2c6;
+  text-align: center;
+}
+.about_me__title {
+  position: relative;
+  font-size: 3.44rem;
+  font-weight: 500;
+  margin-bottom: 35px;
+  color: #373d47;
+}
+.about_me__title::before {
+  content: "";
+  position: absolute;
+  top: 76px;
+  left: 50%;
+  width: 320px;
+  height: 2px;
+  background: #373d47;
+  transform: translateX(-50%);
+  margin: 10px 0;
+}
+.about_me__title::after {
+  content: "Maquilladora Profesional";
+  position: absolute;
+  top: 65px;
+  left: 50%;
+  width: 240px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #373d47;
+  padding: 0 5px;
+  background: #e2c2c6;
+  transform: translateX(-50%);
+  margin: 10px 0;
+}
+
+.about_me__img {
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 20px;
+}
+
+.about_me__paragraph {
+  width: 30%;
+  margin: 45px 0;
+  text-align: justify;
+  font-size: 18px;
+  font-weight: 400;
+  color: #373d47;
+}

@@ -1,0 +1,90 @@
+.footer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: #35343b;
+  background: #ffffff;
+  padding: 30px 0;
+  margin: 0 auto;
+  border-top: 1px solid transparent;
+  box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.footer__logo {
+  width: 50%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer__social {
+  width: 50%;
+  height: auto;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.social__legend {
+  margin-bottom: 20px;
+}
+
+.container__icon a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  color: #30353b;
+  text-decoration: none;
+  margin: 0 8px;
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid #000;
+  border-radius: 50%;
+  line-height: 35px;
+  transition: color 0.3s ease-in-out;
+  margin-bottom: 20px;
+}
+
+.container__icon a:first-child:hover {
+  color: #fff;
+  background: #f09433;
+  background: -moz-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  border: none;
+}
+
+.container__icon a:hover {
+  background-color: #1873eb;
+  color: #fff;
+  border: 1px solid #1873eb;
+}
+.copyright {
+  font-size: 16px;
+  font-weight: 400;
+}

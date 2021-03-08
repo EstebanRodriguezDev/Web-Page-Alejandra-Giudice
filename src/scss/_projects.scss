@@ -1,0 +1,142 @@
+/* PROYECTOS */
+
+.portfolio {
+  background-color: #f8f7f5;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.portfolio__title {
+  position: relative;
+  color: #373d47;
+  font-size: 55px;
+  font-weight: 500;
+  margin-bottom: 55px;
+}
+
+.portfolio__title::before {
+  content: "";
+  position: absolute;
+  top: 72px;
+  left: 50%;
+  width: 225px;
+  height: 2px;
+  background: #373d47;
+  transform: translateX(-50%);
+  margin: 10px 0;
+}
+
+.portfolio__title::after {
+  content: "Algunos trabajos";
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  width: 160px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #373d47;
+  padding: 0 5px;
+  background: #f8f7f5;
+  transform: translateX(-50%);
+  margin: 10px 0;
+}
+
+.container__cards {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.card {
+  position: relative;
+  display: flex;
+  width: 385px;
+  height: 500px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+  background: #f1dede;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card__img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.card__title {
+  color: #373d47;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.card__copy {
+  width: 80%;
+  height: auto;
+  color: #373d47;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.card__btn {
+  display: inline-block;
+  width: 140px;
+  height: auto;
+  padding: 5px;
+  line-height: 25px;
+  border: 1px solid #ccc;
+  border-radius: 16px;
+  background: #f8f7f5;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  color: #373d47;
+  cursor: pointer;
+  margin: 5px 0;
+}
+.card__btn:hover {
+  background: #e2c2c6;
+  font-weight: 400;
+  color: #fff;
+}
+.card__btn i {
+  font-size: 16px;
+  margin-left: 10px;
+}
+.card__img,
+.card__title,
+.card__copy {
+  margin-bottom: 15px;
+}
+
+.drop__menu {
+  width: 75%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.drop__down {
+  width: 75%;
+  height: auto;
+  align-self: center;
+  justify-self: center;
+}
+.drop__down.show {
+  display: none;
+}
+.card__btn.mod {
+  width: 130px;
+}

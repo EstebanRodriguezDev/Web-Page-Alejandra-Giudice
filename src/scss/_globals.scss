@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Karla", sans-serif;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 50px 0;
+  height: auto;
+}
+.scroll-up-btn {
+  position: fixed;
+  height: 45px;
+  width: 35px;
+  background: crimson;
+  right: 10px;
+  bottom: 10px;
+  text-align: center;
+  line-height: 45px;
+  color: #000;
+  font-size: 25px;
+  z-index: 10;
+  border-radius: 6px;
+  border-bottom-width: 2px;
+  cursor: pointer;
+  opacity: 0;
+  transition: 0.5s;
+}
+.scroll-up-btn.show {
+  bottom: 45px;
+  opacity: 1;
+}
+.scroll-up-btn:hover {
+  filter: brightness(90%);
+}
