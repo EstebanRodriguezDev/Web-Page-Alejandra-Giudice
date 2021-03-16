@@ -18,7 +18,6 @@ window.addEventListener("scroll", () => {
 let enlacesHeader = document.querySelectorAll(".navigation__links")[0];
 let hamburguer = document.querySelector(".hamburguer i");
 
-console.log(hamburguer);
 let semaforo = true;
 
 hamburguer.addEventListener("click", () => {

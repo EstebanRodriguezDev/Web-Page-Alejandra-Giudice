@@ -20,12 +20,12 @@ body {
   position: fixed;
   height: 45px;
   width: 35px;
-  background: crimson;
+  background: #aba0c5;
   right: 10px;
   bottom: 10px;
   text-align: center;
   line-height: 45px;
-  color: #000;
+  color: #fff;
   font-size: 25px;
   z-index: 10;
   border-radius: 6px;
@@ -39,5 +39,5 @@ body {
   opacity: 1;
 }
 .scroll-up-btn:hover {
-  filter: brightness(90%);
+  filter: brightness(85%);
 }

@@ -20,20 +20,8 @@
   margin-bottom: 45px;
 }
 
-.contact__title::before {
-  content: "";
-  position: absolute;
-  top: 72px;
-  left: 50%;
-  width: 230px;
-  height: 2px;
-  background: #373d47;
-  transform: translateX(-50%);
-  margin: 10px 0;
-}
-
 .contact__title::after {
-  content: "Dejame un mensaje";
+  content: "Dejame tu mensaje";
   position: absolute;
   top: 60px;
   left: 50%;

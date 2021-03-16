@@ -28,6 +28,7 @@
     pointer-events: all;
     display: flex;
     opacity: 0;
+    overflow: hidden;
   }
   .menu__clip-path {
     -webkit-clip-path: circle(125% at 100% 0);
@@ -151,12 +152,9 @@
   .contact__title {
     font-size: 45px;
   }
-  .about_me__title::before,
+
   .about_me__title::after {
     margin: 5px 0;
-  }
-  .about_me__title::before {
-    width: 300px;
   }
   .contact__title::after {
     width: 160px;
@@ -216,10 +214,6 @@
   .contact__title {
     font-size: 42px;
   }
-  .about_me__title::before {
-    width: 265px;
-    top: 55px;
-  }
   .about_me__title::after {
     width: 200px;
     font-size: 18px;
@@ -229,30 +223,18 @@
     width: 170px;
     font-size: 18px;
   }
-  .service__legend::before {
-    width: 215px;
-  }
   .costumbers__copy::after {
     font-size: 18px;
     width: 70px;
   }
-  .costumbers__copy::before {
-    width: 150px;
-  }
+
   .portfolio__title::after {
     width: 145px;
     font-size: 18px;
   }
-  .portfolio__title::before {
-    width: 190px;
-  }
   .contact__title::after {
     width: 170px;
     font-size: 18px;
-    margin: -5px 0;
-  }
-  .contact__title::before {
-    width: 215px;
     margin: -5px 0;
   }
 }
@@ -296,9 +278,6 @@
   .card__h3 {
     margin-top: 30px;
   }
-  .portfolio__title::before {
-    top: 50px;
-  }
   .portfolio__title::after {
     top: 38px;
   }
@@ -310,31 +289,44 @@
 // Breakpoints project section
 
 @media screen and (max-width: 1024px) {
-  .container__skew .agregar-imagen {
-    width: 80%;
-  }
-  .container__skew .close {
-    top: 22%;
-    right: 0;
-  }
-}
-@media screen and (max-width: 824px) {
   .project--nav {
     background: #2f3640;
   }
   .project--nav a {
     color: #fff;
   }
+  .container__skew .agregar-imagen {
+    width: 55%;
+    height: 80%;
+  }
+  .container__skew .close {
+    top: 10%;
+    right: 15px;
+  }
+}
+@media screen and (max-width: 824px) {
   @media screen and (max-width: 768px) {
     .container__skew .agregar-imagen {
       height: 55%;
     }
+    .container__skew #agregar-imagen--quin {
+      height: 75%;
+    }
+    .container__skew #close--quin {
+      top: 12%;
+    }
     .container__skew .project__card {
       width: 340px;
+      height: 500px;
     }
     .container__skew .close {
       top: 21%;
     }
+  }
+}
+@media screen and (max-width: 600px) {
+  .container__skew #agregar-imagen--quin {
+    width: 75%;
   }
 }
 @media screen and (max-width: 480px) {
@@ -367,17 +359,31 @@
   }
   .container__skew .agregar-imagen {
     width: 80%;
+    height: 70%;
   }
   .container__skew .close {
     width: 35px;
-    top: 25%;
+    top: 15%;
     right: 0;
   }
   .container__skew .projects__cards {
     padding: 10px 0px;
   }
 }
-
+@media screen and (max-width: 380px) {
+  .container__skew #agregar-imagen--quin {
+    height: 65%;
+  }
+  .container__skew #close--quin {
+    top: 17%;
+  }
+}
+@media screen and (max-width: 340px) {
+  .container__skew .agregar-imagen {
+    width: 80%;
+    height: 60%;
+  }
+}
 @media screen and (max-width: 320px) {
   .container__skew .project .project__title {
     width: 280px;
@@ -387,9 +393,5 @@
   }
   .container__skew .project .project__tags {
     width: 280px;
-  }
-  .container__skew .agregar-imagen {
-    width: 80%;
-    height: 40%;
   }
 }

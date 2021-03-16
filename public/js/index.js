@@ -25,7 +25,9 @@ let dropDownTwo = document.querySelector("#down-two");
 
 dropMenuOne.addEventListener("click", (e) => {
   e.preventDefault();
-  dropDownOne.classList.toggle("show");
+  if (e.target.classList.contains("more-content")) {
+    dropDownOne.classList.toggle("show");
+  }
 });
 
 dropMenuTwo.addEventListener("click", (e) => {

@@ -7,11 +7,11 @@ body { font-family: "Karla", sans-serif; }
 
 .container { width: 90%; margin: 0 auto; overflow: hidden; padding: 50px 0; height: auto; }
 
-.scroll-up-btn { position: fixed; height: 45px; width: 35px; background: crimson; right: 10px; bottom: 10px; text-align: center; line-height: 45px; color: #000; font-size: 25px; z-index: 10; border-radius: 6px; border-bottom-width: 2px; cursor: pointer; opacity: 0; -webkit-transition: 0.5s; transition: 0.5s; }
+.scroll-up-btn { position: fixed; height: 45px; width: 35px; background: #aba0c5; right: 10px; bottom: 10px; text-align: center; line-height: 45px; color: #fff; font-size: 25px; z-index: 10; border-radius: 6px; border-bottom-width: 2px; cursor: pointer; opacity: 0; -webkit-transition: 0.5s; transition: 0.5s; }
 
 .scroll-up-btn.show { bottom: 45px; opacity: 1; }
 
-.scroll-up-btn:hover { -webkit-filter: brightness(90%); filter: brightness(90%); }
+.scroll-up-btn:hover { -webkit-filter: brightness(85%); filter: brightness(85%); }
 
 .header { width: 100%; height: 100vh; margin: 0 auto; }
 
@@ -41,8 +41,6 @@ body { font-family: "Karla", sans-serif; }
 
 .about_me__title { position: relative; font-size: 3.44rem; font-weight: 500; margin-bottom: 35px; color: #373d47; }
 
-.about_me__title::before { content: ""; position: absolute; top: 76px; left: 50%; width: 320px; height: 2px; background: #373d47; -webkit-transform: translateX(-50%); transform: translateX(-50%); margin: 10px 0; }
-
 .about_me__title::after { content: "Maquilladora Profesional"; position: absolute; top: 65px; left: 50%; width: 240px; font-size: 20px; font-weight: 500; color: #373d47; padding: 0 5px; background: #e2c2c6; -webkit-transform: translateX(-50%); transform: translateX(-50%); margin: 10px 0; }
 
 .about_me__img { width: 230px; height: 230px; border-radius: 50%; -o-object-fit: cover; object-fit: cover; margin: 20px; }
@@ -53,13 +51,7 @@ body { font-family: "Karla", sans-serif; }
 
 .services__info { width: 80%; height: auto; }
 
-.services__title { color: #373d47; font-size: 55px; font-weight: 500; margin-bottom: 10px; }
-
-.service__legend { position: relative; color: #373d47; font-size: 18px; font-weight: 500; margin-bottom: 30px; }
-
-.service__legend::before { content: ""; position: absolute; top: -8px; left: 50%; width: 255px; height: 2px; background: #373d47; -webkit-transform: translateX(-50%); transform: translateX(-50%); margin: 10px 0; }
-
-.service__legend::after { content: "Lo que proporciono"; position: absolute; top: -20px; left: 50%; width: 180px; font-size: 20px; color: #373d47; padding: 0 5px; background: #f8f7f5; -webkit-transform: translateX(-50%); transform: translateX(-50%); margin: 10px 0; }
+.services__title { color: #373d47; font-size: 55px; font-weight: 500; margin-bottom: 30px; }
 
 .services__content { width: 80%; height: auto; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; }
 
@@ -103,9 +95,9 @@ body { font-family: "Karla", sans-serif; }
 
 .swiper-container-3d { -webkit-perspective: 0; perspective: 0; }
 
-.content h3 { font-size: 30px; color: #373d47; font-weight: 500; }
+.content h3 { font-size: 32px; color: #373d47; font-weight: 600; }
 
-.content h4 { font-size: 18px; color: #373d47; font-weight: 400; }
+.content h4 { font-size: 20px; color: #373d47; font-weight: 500; }
 
 .content p { font-size: 16px; color: #373d47; font-weight: 400; }
 
@@ -114,11 +106,7 @@ body { font-family: "Karla", sans-serif; }
 /* PROYECTOS */
 .portfolio { background-color: #f8f7f5; width: 100%; height: auto; text-align: center; }
 
-.portfolio__title { position: relative; color: #373d47; font-size: 55px; font-weight: 500; margin-bottom: 55px; }
-
-.portfolio__title::before { content: ""; position: absolute; top: 72px; left: 50%; width: 225px; height: 2px; background: #373d47; -webkit-transform: translateX(-50%); transform: translateX(-50%); margin: 10px 0; }
-
-.portfolio__title::after { content: "Algunos trabajos"; position: absolute; top: 60px; left: 50%; width: 160px; font-size: 20px; font-weight: 500; color: #373d47; padding: 0 5px; background: #f8f7f5; -webkit-transform: translateX(-50%); transform: translateX(-50%); margin: 10px 0; }
+.portfolio__title { color: #373d47; font-size: 55px; font-weight: 500; margin-bottom: 30px; }
 
 .container__cards { width: 100%; height: auto; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; }
 
@@ -146,14 +134,14 @@ body { font-family: "Karla", sans-serif; }
 
 .card__btn.mod { width: 130px; }
 
+.btn--nav { background: #2f3640; color: #fff; }
+
 /* CONTACT */
 .contact { width: 100%; height: auto; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -ms-flex-wrap: wrap; flex-wrap: wrap; text-align: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; background: #e2c2c6; }
 
 .contact__title { position: relative; color: #373d47; font-size: 55px; font-weight: 500; margin-bottom: 45px; }
 
-.contact__title::before { content: ""; position: absolute; top: 72px; left: 50%; width: 230px; height: 2px; background: #373d47; -webkit-transform: translateX(-50%); transform: translateX(-50%); margin: 10px 0; }
-
-.contact__title::after { content: "Dejame un mensaje"; position: absolute; top: 60px; left: 50%; width: 185px; font-size: 20px; font-weight: 500; color: #373d47; padding: 0 5px; background: #e2c2c6; -webkit-transform: translateX(-50%); transform: translateX(-50%); margin: 10px 0; }
+.contact__title::after { content: "Dejame tu mensaje"; position: absolute; top: 60px; left: 50%; width: 185px; font-size: 20px; font-weight: 500; color: #373d47; padding: 0 5px; background: #e2c2c6; -webkit-transform: translateX(-50%); transform: translateX(-50%); margin: 10px 0; }
 
 .contact__form { position: relative; display: -webkit-box; display: -ms-flexbox; display: flex; width: 50%; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin: auto; text-align: center; }
 
@@ -227,15 +215,15 @@ input:focus, input.form-control:focus, textarea { outline: none !important; outl
 
 .container__skew .show__more { display: none; }
 
-.container__skew .imagen-light { position: fixed; background: rgba(0, 0, 0, 0.5); width: 100%; height: 100%; top: 0; left: 0; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-transform: translate(100%); transform: translate(100%); -webkit-transition: -webkit-transform 0.2s ease-in-out; transition: -webkit-transform 0.2s ease-in-out; transition: transform 0.2s ease-in-out; transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out; }
+.container__skew .imagen-light { position: fixed; background: rgba(0, 0, 0, 0.5); width: 100%; height: 100%; top: 0; left: 0; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-transform: translate(100%); transform: translate(100%); -webkit-transition: -webkit-transform 0.2s ease-in-out; transition: -webkit-transform 0.2s ease-in-out; transition: transform 0.2s ease-in-out; transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out; z-index: 100; }
 
 .container__skew .show { -webkit-transform: translate(0); transform: translate(0); }
 
-.container__skew .agregar-imagen { background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: center; -o-object-fit: cover; object-fit: cover; width: 45%; border-radius: 10px; -webkit-transform: scale(0); transform: scale(0); -webkit-transition: -webkit-transform 0.3s 0.2s; transition: -webkit-transform 0.3s 0.2s; transition: transform 0.3s 0.2s; transition: transform 0.3s 0.2s, -webkit-transform 0.3s 0.2s; }
+.container__skew .agregar-imagen { width: 35%; height: 90%; background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: center; -o-object-fit: cover; object-fit: cover; border-radius: 10px; -webkit-transform: scale(0); transform: scale(0); -webkit-transition: -webkit-transform 0.3s 0.2s; transition: -webkit-transform 0.3s 0.2s; transition: transform 0.3s 0.2s; transition: transform 0.3s 0.2s, -webkit-transform 0.3s 0.2s; }
 
 .container__skew .showimage { -webkit-transform: scale(1); transform: scale(1); }
 
-.container__skew .close { position: absolute; top: 115px; right: 80px; width: 40px; cursor: pointer; }
+.container__skew .close { position: absolute; top: 30px; right: 80px; width: 40px; cursor: pointer; }
 
 .container__skew .skew-two { position: absolute; bottom: 0; left: 0; height: 60px; width: 100%; border-width: 0 0 15vh 100vw; border-style: solid; border-color: transparent transparent #ffffff transparent; }
 
@@ -244,7 +232,7 @@ input:focus, input.form-control:focus, textarea { outline: none !important; outl
 /* BREAKPOINTS */
 @media screen and (max-width: 1024px) { /* Breakpoint navigation */
   .navigation { padding: 0 20px; }
-  .navigation__links { position: fixed; background: #ee9ca7; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */ background: -webkit-gradient(linear, left top, right top, from(#ffdde1), to(#ee9ca7)); background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ top: 0; right: 0; width: 100%; height: 100vh; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; -webkit-clip-path: circle(0% at 100% 0); clip-path: circle(0% at 100% 0); pointer-events: all; display: -webkit-box; display: -ms-flexbox; display: flex; opacity: 0; }
+  .navigation__links { position: fixed; background: #ee9ca7; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */ background: -webkit-gradient(linear, left top, right top, from(#ffdde1), to(#ee9ca7)); background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ top: 0; right: 0; width: 100%; height: 100vh; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; -webkit-clip-path: circle(0% at 100% 0); clip-path: circle(0% at 100% 0); pointer-events: all; display: -webkit-box; display: -ms-flexbox; display: flex; opacity: 0; overflow: hidden; }
   .menu__clip-path { -webkit-clip-path: circle(125% at 100% 0); clip-path: circle(150% at 100% 0); }
   .hamburguer { display: block; margin-left: 10px; }
   .services__card-img { width: 50%; }
@@ -279,8 +267,7 @@ input:focus, input.form-control:focus, textarea { outline: none !important; outl
 
 @media screen and (max-width: 600px) { .navigation { padding: 0 10px; }
   .about_me__title, .services__title, .customers__title, .portfolio__title, .contact__title { font-size: 45px; }
-  .about_me__title::before, .about_me__title::after { margin: 5px 0; }
-  .about_me__title::before { width: 300px; }
+  .about_me__title::after { margin: 5px 0; }
   .contact__title::after { width: 160px; font-size: 19px; }
   .logo__img { width: 85%; height: 70px; }
   .logo-nav { width: 80%; } }
@@ -297,16 +284,11 @@ input:focus, input.form-control:focus, textarea { outline: none !important; outl
   .footer__logo { margin-bottom: 20px; width: 100%; }
   .footer__social { width: 100%; }
   .about_me__title, .services__title, .customers__title, .portfolio__title, .contact__title { font-size: 42px; }
-  .about_me__title::before { width: 265px; top: 55px; }
   .about_me__title::after { width: 200px; font-size: 18px; top: 45px; }
   .service__legend::after { width: 170px; font-size: 18px; }
-  .service__legend::before { width: 215px; }
   .costumbers__copy::after { font-size: 18px; width: 70px; }
-  .costumbers__copy::before { width: 150px; }
   .portfolio__title::after { width: 145px; font-size: 18px; }
-  .portfolio__title::before { width: 190px; }
-  .contact__title::after { width: 170px; font-size: 18px; margin: -5px 0; }
-  .contact__title::before { width: 215px; margin: -5px 0; } }
+  .contact__title::after { width: 170px; font-size: 18px; margin: -5px 0; } }
 
 @media screen and (max-width: 380px) { .logo { width: 250px; }
   .logo-nav { width: 85%; }
@@ -319,19 +301,21 @@ input:focus, input.form-control:focus, textarea { outline: none !important; outl
   .container__cards { margin-top: 70px; } }
 
 @media screen and (max-width: 340px) { .card__h3 { margin-top: 30px; }
-  .portfolio__title::before { top: 50px; }
   .portfolio__title::after { top: 38px; }
   .card__copy { width: 100%; } }
 
-@media screen and (max-width: 1024px) { .container__skew .agregar-imagen { width: 80%; }
-  .container__skew .close { top: 22%; right: 0; } }
-
-@media screen and (max-width: 824px) { .project--nav { background: #2f3640; }
-  .project--nav a { color: #fff; } }
+@media screen and (max-width: 1024px) { .project--nav { background: #2f3640; }
+  .project--nav a { color: #fff; }
+  .container__skew .agregar-imagen { width: 55%; height: 80%; }
+  .container__skew .close { top: 10%; right: 15px; } }
 
 @media screen and (max-width: 824px) and (max-width: 768px) { .container__skew .agregar-imagen { height: 55%; }
-  .container__skew .project__card { width: 340px; }
+  .container__skew #agregar-imagen--quin { height: 75%; }
+  .container__skew #close--quin { top: 12%; }
+  .container__skew .project__card { width: 340px; height: 500px; }
   .container__skew .close { top: 21%; } }
+
+@media screen and (max-width: 600px) { .container__skew #agregar-imagen--quin { width: 75%; } }
 
 @media screen and (max-width: 480px) { .container__skew .project .project__title { width: 300px; font-size: 40px; }
   .container__skew .project .project__tags { width: 300px; }
@@ -341,12 +325,16 @@ input:focus, input.form-control:focus, textarea { outline: none !important; outl
   .container__skew .project .project__title .hr-beat { width: 110px; }
   .container__skew .projects__btn { width: 100px; height: 45px; font-size: 18px; }
   .container__skew .project__card { width: 320px; }
-  .container__skew .agregar-imagen { width: 80%; }
-  .container__skew .close { width: 35px; top: 25%; right: 0; }
+  .container__skew .agregar-imagen { width: 80%; height: 70%; }
+  .container__skew .close { width: 35px; top: 15%; right: 0; }
   .container__skew .projects__cards { padding: 10px 0px; } }
+
+@media screen and (max-width: 380px) { .container__skew #agregar-imagen--quin { height: 65%; }
+  .container__skew #close--quin { top: 17%; } }
+
+@media screen and (max-width: 340px) { .container__skew .agregar-imagen { width: 80%; height: 60%; } }
 
 @media screen and (max-width: 320px) { .container__skew .project .project__title { width: 280px; }
   .container__skew .projects__cards { padding: 10px 0; }
-  .container__skew .project .project__tags { width: 280px; }
-  .container__skew .agregar-imagen { width: 80%; height: 40%; } }
+  .container__skew .project .project__tags { width: 280px; } }
 /*# sourceMappingURL=main.css.map */
