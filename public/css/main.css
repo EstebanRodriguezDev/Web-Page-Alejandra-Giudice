@@ -306,14 +306,13 @@ input:focus, input.form-control:focus, textarea { outline: none !important; outl
 
 @media screen and (max-width: 1024px) { .project--nav { background: #2f3640; }
   .project--nav a { color: #fff; }
-  .container__skew .agregar-imagen { width: 55%; height: 80%; }
+  .container__skew .agregar-imagen { width: 60%; height: 80%; }
   .container__skew .close { top: 10%; right: 15px; } }
 
-@media screen and (max-width: 824px) and (max-width: 768px) { .container__skew .agregar-imagen { height: 55%; }
-  .container__skew #agregar-imagen--quin { height: 75%; }
+@media screen and (max-width: 824px) and (max-width: 768px) { .container__skew .agregar-imagen { height: 80%; margin-top: 60px; }
   .container__skew #close--quin { top: 12%; }
   .container__skew .project__card { width: 340px; height: 500px; }
-  .container__skew .close { top: 21%; } }
+  .container__skew .close { top: 13%; } }
 
 @media screen and (max-width: 600px) { .container__skew #agregar-imagen--quin { width: 75%; } }
 
@@ -325,14 +324,14 @@ input:focus, input.form-control:focus, textarea { outline: none !important; outl
   .container__skew .project .project__title .hr-beat { width: 110px; }
   .container__skew .projects__btn { width: 100px; height: 45px; font-size: 18px; }
   .container__skew .project__card { width: 320px; }
-  .container__skew .agregar-imagen { width: 80%; height: 70%; }
-  .container__skew .close { width: 35px; top: 15%; right: 0; }
+  .container__skew .agregar-imagen { width: 85%; height: 80%; }
+  .container__skew .close { width: 35px; top: 10%; right: 0; }
   .container__skew .projects__cards { padding: 10px 0px; } }
 
-@media screen and (max-width: 380px) { .container__skew #agregar-imagen--quin { height: 65%; }
-  .container__skew #close--quin { top: 17%; } }
-
-@media screen and (max-width: 340px) { .container__skew .agregar-imagen { width: 80%; height: 60%; } }
+@media screen and (max-width: 380px) { .container__skew #agregar-imagen--quin { width: 80%; }
+  .container__skew #close--quin { top: 13%; }
+  .container__skew .agregar-imagen { width: 80%; height: 80%; }
+  .container__skew .close { top: 13%; } }
 
 @media screen and (max-width: 320px) { .container__skew .project .project__title { width: 280px; }
   .container__skew .projects__cards { padding: 10px 0; }

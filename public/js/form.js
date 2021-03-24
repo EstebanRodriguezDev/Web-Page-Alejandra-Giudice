@@ -53,11 +53,13 @@ function validarFormulario(e) {
     }
   }
   if (
-    correoEr.test(correo.value) &&
-    nombre.value !== "" &&
-    mensaje.value !== ""
+    nombre.value != "" &&
+    mensaje.value != "" &&
+    correoEr.test(correo.value)
   ) {
     btnEnviar.disabled = false;
+  } else {
+    btnEnviar.disabled = true;
   }
 }
 
