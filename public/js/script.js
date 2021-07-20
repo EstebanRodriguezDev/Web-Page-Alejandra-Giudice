@@ -17,7 +17,7 @@ window.addEventListener("scroll", () => {
 // Menu hamburguer + clip Path
 let enlacesHeader = document.querySelectorAll(".navigation__links")[0];
 let hamburguer = document.querySelector(".hamburguer i");
-
+let body = document.querySelector("body");
 let semaforo = true;
 
 hamburguer.addEventListener("click", () => {
@@ -35,9 +35,11 @@ hamburguer.addEventListener("click", () => {
   if (enlacesHeader.classList.contains("menu__clip-path")) {
     hamburguer.classList.remove("fa-bars");
     hamburguer.classList.add("fa-times");
+    body.classList.add("remove-scroll");
   } else {
     hamburguer.classList.remove("fa-times");
     hamburguer.classList.add("fa-bars");
+    body.classList.remove("remove-scroll");
   }
 });
 

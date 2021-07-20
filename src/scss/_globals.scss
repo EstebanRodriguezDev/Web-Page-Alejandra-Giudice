@@ -41,3 +41,8 @@ body {
 .scroll-up-btn:hover {
   filter: brightness(85%);
 }
+
+.remove-scroll {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
