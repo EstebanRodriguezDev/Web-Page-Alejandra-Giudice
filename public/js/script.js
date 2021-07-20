@@ -40,6 +40,7 @@ hamburguer.addEventListener("click", () => {
     hamburguer.classList.remove("fa-times");
     hamburguer.classList.add("fa-bars");
     body.classList.remove("remove-scroll");
+    console.log("Funciona");
   }
 });
 
