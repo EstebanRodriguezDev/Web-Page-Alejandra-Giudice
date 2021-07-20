@@ -17,8 +17,9 @@ window.addEventListener("scroll", () => {
 // Menu hamburguer + clip Path
 let enlacesHeader = document.querySelectorAll(".navigation__links")[0];
 let hamburguer = document.querySelector(".hamburguer i");
-let body = document.querySelector("body");
 let semaforo = true;
+let body = document.querySelector("body");
+console.log(body);
 
 hamburguer.addEventListener("click", () => {
   if (semaforo) {
@@ -40,7 +41,6 @@ hamburguer.addEventListener("click", () => {
     hamburguer.classList.remove("fa-times");
     hamburguer.classList.add("fa-bars");
     body.classList.remove("remove-scroll");
-    console.log("Funciona");
   }
 });
 
